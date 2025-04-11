@@ -1,0 +1,7 @@
+SET AX 1
+SET BX 10
+SUM AX BX
+IO 2000
+SUB AX BX
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebas/archivo_pseudo_2.txt 120 2
+PROCESS_EXIT 

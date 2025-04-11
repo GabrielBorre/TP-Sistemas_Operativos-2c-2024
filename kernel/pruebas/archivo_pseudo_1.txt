@@ -1,0 +1,9 @@
+SET AX 2
+SET BX 2
+MUTEX_CREATE RECURSO_1
+MUTEX_LOCK RECURSO_1
+THREAD_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebas/archivo_pseudo_2.txt 0
+THREAD_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebas/archivo_pseudo_3.txt 6
+IO 300
+MUTEX_UNLOCK RECURSO_1
+THREAD_EXIT

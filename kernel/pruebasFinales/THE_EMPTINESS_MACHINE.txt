@@ -1,0 +1,10 @@
+SET AX 10
+SET BX 1
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/PLANI_PROC.txt 16 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/RECURSOS_MUTEX_PROC.txt 16 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_FIJA_BASE.txt 12 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC.txt 128 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/PRUEBA_FS.txt 32 0
+SUB AX BX
+JNZ AX 2
+PROCESS_EXIT

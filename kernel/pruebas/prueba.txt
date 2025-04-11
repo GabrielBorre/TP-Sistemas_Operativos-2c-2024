@@ -1,0 +1,2 @@
+THREAD_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebas/prueba_estres.txt 1
+THREAD_EXIT

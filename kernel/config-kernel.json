@@ -1,0 +1,12 @@
+{
+    "ip_kernel": "127.0.0.1",
+    "port_kernel": 8001,
+    "ip_memory": "127.0.0.1",
+    "port_memory": 8003,
+    "ip_cpu": "127.0.0.1",
+    "port_cpu": 8002,
+    "port_cpu_interrupt":8007,
+    "scheduler_algorithm": "CMN",
+    "quantum": 250,
+    "log_level": "DEBUG"
+}

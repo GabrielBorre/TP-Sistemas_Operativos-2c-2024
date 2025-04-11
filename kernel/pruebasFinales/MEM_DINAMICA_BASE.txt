@@ -1,0 +1,16 @@
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC_FIN.txt 64 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC_FIN.txt 128 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC_FIN.txt 64 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC.txt 256 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC.txt 64 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC_FIN.txt 64 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC.txt 320 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC.txt 64 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/MEM_DINAMICA_PROC.txt 64 0
+SET DX 0
+SET AX 64
+WRITE_MEM DX AX
+READ_MEM BX DX
+LOG BX
+IO 600000
+PROCESS_EXIT

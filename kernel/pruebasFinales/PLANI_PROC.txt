@@ -1,0 +1,12 @@
+SET DX 0
+SET AX 1
+THREAD_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/PLANI_THREAD.txt 6
+SUM DX AX
+THREAD_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/PLANI_THREAD.txt 5
+SUM DX AX
+THREAD_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/PLANI_THREAD.txt 5
+SUM DX AX
+THREAD_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/PLANI_THREAD.txt 6
+SUM DX AX
+THREAD_JOIN 4
+PROCESS_EXIT

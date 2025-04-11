@@ -1,0 +1,12 @@
+SET AX 5
+SET BX 1
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/FIBO_CROWN.txt 96 0
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/FIBO_10.txt 64 1
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/FIBO_20.txt 128 1
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/FIBO_30.txt 256 1
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/FIBO_40.txt 256 1
+PROCESS_CREATE /home/utnso/tp-2024-2c-GOlazo/kernel/pruebasFinales/FIBO_47.txt 256 1
+SUB AX BX
+IO 30000
+JNZ AX 3
+PROCESS_EXIT
